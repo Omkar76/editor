@@ -5,22 +5,22 @@ This is a basic text editor made with Java.
 ---
 
 To run the editor, clone this repository with following command
-```bash
+```console
 git clone https://github.com/Omkar76/editor.git
 ```
 
 `cd` to *editor* folder
 
-```bash
+```console
 cd editor
 ``` 
 
 compile 
-```bash
+```console
 javac texteditor/Main.java
 ```
 
 run 
-```bash
+```console
 java texteditor.Main
 ```
