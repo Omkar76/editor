@@ -1,6 +1,7 @@
 # editor
 
 This is a basic text editor made with Java. 
+![Screenshot of editor](screenshot.png)
 
 ---
 
