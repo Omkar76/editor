@@ -53,23 +53,7 @@ class FileMenu extends JMenu {
 		newFile.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_N, ActionEvent.CTRL_MASK));
 		
 		/*new file end*/
-		
-//		/*new window start*/
-//		newWindow = new JMenuItem("New Window");
-//		this.add(newWindow);
-//		
-//		newWindow.setFont(Preferences.menuItemFont);
-//		newWindow.addActionListener(new ActionListener() {
-//			@Override
-//			public void actionPerformed(ActionEvent e) {
-//				Main.main(new String[] {});
-//			}
-//		});
-//		
-//		newWindow.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_N , ActionEvent.CTRL_MASK | ActionEvent.SHIFT_MASK));
-//		
-//		/*new window end*/
-		
+				
 		/*open start*/
 		open = new JMenuItem("Open");
 		this.add(open);
@@ -107,9 +91,6 @@ class FileMenu extends JMenu {
 		open.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_O, ActionEvent.CTRL_MASK));
 		
 		/*open end*/
-		
-		
-		
 		
 		/*save start*/
 		save = new JMenuItem("Save");
